@@ -1,5 +1,5 @@
 """
-Convert boolean values to strings 'Yes' or 'No'.
+Your order, please.
 
 The link: https://www.codewars.com/kata/55c45be3b2079eccff00010f
 
