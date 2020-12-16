@@ -1,2 +1,2 @@
-# codewars
+# Codewars Katas
 challenges from codewars
