@@ -24,4 +24,5 @@ def order(sentence):
         for word in words:
             if str(i) in word:
                 result.append(word)
+                words.remove(word)
     return ' '.join(result)
