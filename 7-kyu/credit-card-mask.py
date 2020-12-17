@@ -27,3 +27,8 @@ def maskify(cc):
     for i in range(size-4):
         string = string+"#"
     return string + cc[-4:]
+
+ #This solution is also viable:
+
+def maskify(cc):
+    return "#" * (len(cc) - 4) + cc[-4:]
