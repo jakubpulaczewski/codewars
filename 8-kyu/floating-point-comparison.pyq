@@ -1,0 +1,21 @@
+"""
+
+Floating point comparison.
+
+The link: https://www.codewars.com/kata/5f9f43328a6bff002fa29eb8
+
+Problem Description:
+floats have limited precision and are unable to exactly represent some values. Rounding errors accumulate with repeated computation, and numbers expected to be equal 
+often differ slightly. As a result, it is common advice to not use an exact equality comparison (==) with floats.
+
+The error must be up to +/- 0.001.
+
+Examples:
+      a, b, c = 1e-9, 1e-9, 3.33e7
+      (a + b) + c == a + (b + c) ----> False
+"""
+
+import math
+
+def approx_equals(a, b):
+    return abs(a - b) <= 0.001
